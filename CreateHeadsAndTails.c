@@ -20,6 +20,13 @@ int main() {
         }
     }
 
+    /*Judging Win or Lose*/
+    if(heads>tails) {
+        printf("You win!");
+    } else {
+        printf("You lose...");
+    }
+
 
     return 0;
 }
