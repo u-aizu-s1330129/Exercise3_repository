@@ -6,6 +6,12 @@ int main() {
     int tails = 0;
     int r;
     int i;
+    char name[31];
+
+    /*asking username*/
+    printf("Who are you?(limited 30)\n");
+    scanf("%s", name);
+    printf("Hello, %s!", name);
 
     /*Tossing a coin*/
     printf("Tossing a coin...\n");
