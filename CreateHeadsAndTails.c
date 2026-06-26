@@ -28,9 +28,9 @@ int main() {
 
     /*Judging Win or Lose*/
     if(heads>tails) {
-        printf("You win!");
+        printf("%s win!", name);
     } else {
-        printf("You lose...");
+        printf("%s lose...", name);
     }
 
 
